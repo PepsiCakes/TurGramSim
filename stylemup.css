@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 body { background-image: url(images/smiley1.png);
        background-color: #000000; 
-       font-family: Comic, Comic, cursive;
+       font-family: Comic Sans MS, Comic Sans, cursive
 }
 
 #wrapper {background-color: #070029;
@@ -14,7 +14,7 @@ body { background-image: url(images/smiley1.png);
      background-color: #070029;
 	 
 }
-h1 {  font-family: Comic, Comic, cursive;
+h1 {  font-family: Comic Sans MS, Comic Sans, cursive
 
 	 text-shadow: 3px 3px 3px #ffffff;
       margin-top: .25em;

@@ -24,12 +24,12 @@
     <p>Check out the YouTube window below to check out our simulaion! :) <br> we reccomend fullscreening it up!</p>
     <button onclick="playVid()" type="button">Play Video</button>
     <button onclick="pauseVid()" type="button">Pause Video</button><br> 
-    <button onclick="Correctbutton()" type="button">Correct!</button><br>
     <video id="myVideo" style="height: 400px; width: 100%" controls autoplay>
       <source id="vidpart1" src="https://dl.dropboxusercontent.com/s/02fe8stcuaiwprg/PILOT_intro vid_part 1.mp4" type="video/mp4">
       <source id="milo" src="https://dl.dropboxusercontent.com/s/9bocmy7uh52iaj2/milo%20test_wMusic.mp4" type="video/mp4">
     </video>
-  
+    <button onclick="Correctbutton()" type="button">Correct!</button>
+    <button onclick="Shockbutton()" type="button">Shock</button><br>
     <script> 
       var vid = document.getElementById("myVideo"); 
       
@@ -42,6 +42,15 @@
       } 
 
       function Correctbutton() { 
+         isSupp = vid.canPlayType("video/mp4");
+          if (isSupp == "") {
+           vid.src = "https://dl.dropboxusercontent.com/s/02fe8stcuaiwprg/PILOT_intro vid_part 1.mp4";
+          } else {
+          vid.src = "https://dl.dropboxusercontent.com/s/9bocmy7uh52iaj2/milo%20test_wMusic.mp4";
+          }
+          vid.load();
+} 
+      function Shockbutton() { 
          isSupp = vid.canPlayType("video/mp4");
           if (isSupp == "") {
            vid.src = "https://dl.dropboxusercontent.com/s/02fe8stcuaiwprg/PILOT_intro vid_part 1.mp4";

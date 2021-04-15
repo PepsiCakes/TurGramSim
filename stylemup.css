@@ -1,23 +1,25 @@
 * { box-sizing: border-box; }
-body { background-image: url(images/smiley1.png);
-       background-color: #000000; 
+body { background-image: url(images/smiley1.png) ;
+       background-color: #1d49db; 
        font-family: Comic Sans MS, Comic Sans, cursive
-}
+       
+} 
 
-#wrapper {background-color: #070029;
-		   color: #00cfbe;
+#wrapper {background-image: url(images/BG1.png);
+       background-color: #2175e4;
+		   color: #46d639;
 		   box-shadow: 5px 5px 5px #000000;
 }
-  header { background-image: url(images/smiley1.png);
+  header { background-image: url(images/BG1.png);
       padding: .5em 1em .5em 6em;
      background-repeat: no-repeat;
-     background-color: #070029;
+     background-color: #2175e4;
 	 
 }
 h1 {  font-family: Comic Sans MS, Comic Sans, cursive
 
-	 text-shadow: 3px 3px 3px #ffffff;
-      margin-top: .25em;
+       text-shadow: 3px 3px 3px #ffffff;
+       margin-top: .25em;
 	 
 }
 nav { margin: 0;  border-bottom: 1px solid #ffffff;}
@@ -36,12 +38,13 @@ nav li { margin-top: 0; margin-bottom: 0;
        padding: .25em;
 }
 nav a { text-decoration: none; }
-nav a:link { color: #ffffff; }
-nav a:visited{ color: #ffffff; }
-nav a:hover { color: #00cfbe; }
+nav a:link { color: #46d639; }
+nav a:visited{ color: #46d639; }
+nav a:hover { color: #e9ff23; }
 
 
-main { background-color: #ffffff;
+main { background-image: url(images/BG1.png);
+       background-color: #ffffff;
           padding: 1px 20px 20px 20px;   
 		  min-height: 300px;
 		  display: block;
@@ -50,7 +53,8 @@ main img { float: right;
          padding: 20px;
 }
 
-footer { background-color: #070029;
+footer {background-image: url(images/BG1.png); 
+       background-color: #2175e4;
        padding: 20px;
        text-align: center;
 	   font-size: small;
